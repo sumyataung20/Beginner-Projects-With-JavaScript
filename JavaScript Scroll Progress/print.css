@@ -1,0 +1,43 @@
+body{
+    background: #000;
+    color: red;
+}
+
+.no-print{
+    display: none;
+}
+
+/* img{
+    display: none;
+} */
+
+img{
+    margin-top: 20px;
+}
+
+.pagebreak{
+    page-break-after: always;
+}
+
+.header{
+    position: static;
+    
+    -webkit-print-color-adjust: exact;
+}
+
+.content{
+
+    -webkit-print-color-adjust: exact;
+    
+    padding: 0 50px;
+
+    margin: 10px auto;
+
+}
+
+@page{
+    size: portrait;
+
+    margin: 0;
+
+}
