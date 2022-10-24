@@ -87,5 +87,5 @@ function slideshow(num) {
 
   getviews[num - 1].style.display = "block";
 
-  getnoactives[num - 1].classList += " active";
+  getnoactives[num - 1].classList.add("active");
 }

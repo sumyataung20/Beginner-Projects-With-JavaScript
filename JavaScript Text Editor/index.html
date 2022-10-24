@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container border p-5">
+      <h2>Text Editor</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div>
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="boldfun()"
+              title="Bold Text"
+            >
+              Bold
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="itcfun()"
+              title="Italic Text"
+            >
+              Italic
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="undfun()"
+              title="Underline Text"
+            >
+              Underline
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="lalfun()"
+              title="Left Align Text"
+            >
+              Align Left
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="alcfun()"
+              title="Center Align Text"
+            >
+              Align Center
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="ralfun()"
+              title="Right Align Text"
+            >
+              Align Right
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="upcfun()"
+              title="Text Uppercase"
+            >
+              Uppercase
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="lwcfun()"
+              title="Text Lowercase"
+            >
+              Lowercase
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="capfun()"
+              title="Text Captalize"
+            >
+              Captalize
+            </button>
+
+            <button
+              type="button"
+              class="btn btn-outline-secondary rounded-0"
+              onclick="clearfun()"
+              title="clear Text"
+            >
+              Clear
+            </button>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <form class="" action="" method="">
+                <textarea
+                  id="textarea"
+                  class="form-control shadow mt-4"
+                  rows="15"
+                  placeholder="Write something ..."
+                ></textarea>
+
+                <div class="float-end">
+                  <button type="button" class="btn btn-secondary">
+                    Cancel
+                  </button>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"
+      integrity="sha512-BOsvKbLb0dB1IVplOL9ptU1EYA+LuCKEluZWRUYG73hxqNBU85JBIBhPGwhQl7O633KtkjMv8lvxZcWP+N3V3w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./app.js" type="text/javascript"></script>
+  </body>
+</html>

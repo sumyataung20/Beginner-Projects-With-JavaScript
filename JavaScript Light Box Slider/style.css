@@ -111,7 +111,7 @@ body {
 }
 
 .noactive {
-  opacity: 0.8s;
+  opacity: 0.8;
 }
 
 .noactive:hover,
