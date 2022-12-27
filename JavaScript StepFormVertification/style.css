@@ -1,0 +1,114 @@
+body {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 700px;
+  background-color: rgb(226, 224, 224);
+  display: flex;
+}
+
+.dotbox {
+  width: 10%;
+}
+
+.dot {
+  display: block;
+  background-color: grey;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.3;
+  line-height: 15px;
+}
+
+.dot.active {
+  opacity: 1;
+}
+
+.dot.done {
+  background-color: rgba(7, 131, 83);
+}
+
+.form {
+  width: 90%;
+  border-left: 2px solid rgba(76, 74, 74, 0.2);
+  padding: 50px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.page h3 {
+  text-align: left;
+}
+
+.page {
+  text-align: center;
+  display: none;
+}
+.form-control {
+  width: 80%;
+  padding: 15px 15px;
+  margin: 10px;
+
+  font-size: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.form-control.invalid {
+  border: 1px dotted red;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.btn {
+  background-color: steelblue;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin: 0px 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+#prevbtn {
+  background: #bbb;
+}
+
+#result-container {
+  width: 90%;
+  display: none;
+}
+
+#result-container ul li {
+  list-style-type: none;
+  padding: 3px;
+}
+
+.submit-btn {
+  width: 80%;
+  background-color: steelblue;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  padding: 5px 0;
+  cursor: pointer;
+}
